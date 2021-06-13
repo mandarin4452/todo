@@ -9,7 +9,7 @@ function keyEnter() {
         document.querySelector(".js-clock").style.display = "";
         document.querySelector(".greetings").style.display = "";
         document.querySelector(".weather").style.display = "";
-        document.querySelector(".input_todo").style.display = "";
+        document.getElementById("todo-form").style.display = "";
         document.querySelector(".initial_info").style.display = "none";
         document.querySelector(".user_input").style.display = "none";
 
@@ -28,7 +28,7 @@ function init() {
         document.querySelector(".js-clock").style.display = "none";
         document.querySelector(".greetings").style.display = "none";
         document.querySelector(".weather").style.display = "none";
-        document.querySelector(".input_todo").style.display = "none";
+        document.getElementById("todo-form").style.display = "none";
 
         // Add input box to get user info
         let initial_info = document.createElement("p");
