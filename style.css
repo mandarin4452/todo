@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gamja Flower', cursive;
+}
+
+body {
+    background-image: url("https://source.unsplash.com/random");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    white-space: nowrap;
+    overflow-x : hidden;
+    list-style-type: none;
+}
+
+h2 {
+    color : white;
+    font-size: 8rem;
+    margin-top: 10vh;
+    margin-bottom: 0vh;
+}
+
+.quotes-text {
+    color : white;
+    font-size : 1.2rem;
+}
+
+.quotes-author {
+    color : white;
+    font-size : 0.8rem;
+}
+
+.initial_info {
+    margin-top: 30vh;
+    font-size : 2rem;
+    color : white;
+}
+
+.user_input {
+    font-size : 1.2rem;
+    color : white;
+    border : none;
+    border-bottom: 2px solid white;
+    background : transparent;
+    width : 100%;
+}
+
+.user_input:focus {
+    background : transparent;
+    border : none;
+    outline : none;
+    border-bottom: 2px solid white; 
+}
+
+.greetings {
+    font-size : 3rem;
+    color : white;
+    margin-bottom: 0vh;
+    margin-top : 3vh;
+}
+
+.weather {
+    color : white;
+    position : absolute;
+    right : 20px;
+}
+
+#todo-form input {
+    font-size : 1.2rem;
+    color : white;
+    border : none;
+    border-bottom: 2px solid white;
+    background : transparent;
+    width : 100%;
+}
+#todo-form input:focus {
+    background : transparent;
+    border : none;
+    outline : none;
+    border-bottom: 2px solid white; 
+}
+#todo-form input::placeholder {
+    color : whitesmoke;
+    text-align: center;
+}
+
+
+#todo-list li {
+    color : white;
+    display : inline;
+    margin-right: 10px;
+    clear : both;
+    white-space: normal;
+    width : 10vh;
+}
+#todo-list li button:first-child {
+    color : green;
+    border : none;
+    background-color: transparent;
+}
+
+#todo-list li button:last-child {
+    color : red;
+    border : none;
+    background-color: transparent;
+}
