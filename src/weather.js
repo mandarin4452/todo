@@ -8,7 +8,7 @@ function onGeoOk(position) {
     fetch(url).then(response => response.json()).then(data => {
         let location = data.name;
         let weather = data.weather[0].main;
-        let temp = data.main.temp;
+        let temp = parseInt(data.main.temp);
         let info = temp + "°C | " + weather;
         let temp_text = document.createElement("p");
         temp_text.innerHTML = info + "<br>" + location;
