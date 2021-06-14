@@ -19,6 +19,9 @@ function onGeoOk(position) {
     })
 }
 function onGeoErr() {
+    let err_text = document.createElement("p");
+    err_text.innerHTML = "Allow current position to get weather!";
+    document.querySelector(".weather").appendChild(err_text);
 
 }
 
