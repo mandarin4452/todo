@@ -14,6 +14,15 @@ body {
     align-items: center;
 }
 
+body::-webkit-scrollbar {
+    display : none;
+}
+
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
 ul {
     white-space: nowrap;
     overflow-x : hidden;
@@ -94,7 +103,7 @@ h2 {
 
 #todo-list li {
     color : white;
-    display : inline;
+    
     margin-right: 10px;
     clear : both;
     white-space: normal;
