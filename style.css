@@ -103,11 +103,10 @@ h2 {
 
 #todo-list li {
     color : white;
-    
     margin-right: 10px;
     clear : both;
     white-space: normal;
-    width : 10vh;
+    
 }
 #todo-list li button:first-child {
     color : green;
